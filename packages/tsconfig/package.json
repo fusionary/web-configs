@@ -1,0 +1,17 @@
+{
+  "name": "@fusionary/tsconfig",
+  "version": "5.0.0",
+  "private": false,
+  "description": "Baseline tsconfigs config used and maintained by Fusionary.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fusionary/web-configs.git",
+    "directory": "packages/typescript"
+  },
+  "license": "MIT",
+  "author": "Fusionary <developers@fusionary.com> (https://fusionary.com)",
+  "type": "module",
+  "files": [
+    "*.json"
+  ]
+}

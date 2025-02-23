@@ -1,0 +1,61 @@
+{
+  "name": "@fusionary/eslint-config",
+  "version": "5.0.0",
+  "private": false,
+  "description": "Baseline eslint configs used and maintained by Fusionary.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fusionary/web-configs.git",
+    "directory": "packages/eslint"
+  },
+  "license": "MIT",
+  "author": "Fusionary <developers@fusionary.com> (https://fusionary.com)",
+  "type": "module",
+  "exports": {
+    ".": "./eslint.config.mjs",
+    "./next": "./next.mjs",
+    "./react": "./react.mjs"
+  },
+  "main": "./eslint.config.mjs",
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "prettier": "@fusionary/prettier-config",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^15.1.7",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.8.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-perfectionist": "^3.9.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "5.1.0-rc-0bc30748-20241028",
+    "eslint-plugin-regexp": "^2.7.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-storybook": "^0.10.2",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "eslint-plugin-turbo": "^2.4.2",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "typescript-eslint": "^8.24.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@fusionary/prettier-config": "workspace:*",
+    "@fusionary/tsconfig": "workspace:*",
+    "@types/eslint": "^9.6.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.17.19",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.1",
+    "tailwindcss": "^3.4.17"
+  }
+}

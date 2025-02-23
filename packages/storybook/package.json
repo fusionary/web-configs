@@ -1,0 +1,57 @@
+{
+  "name": "@local/storybook-config",
+  "version": "5.0.0",
+  "private": false,
+  "description": "Baseline prettier config used and maintained by Fusionary.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fusionary/web-configs.git",
+    "directory": "packages/prettier"
+  },
+  "license": "MIT",
+  "author": "Fusionary <developers@fusionary.com> (https://fusionary.com)",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "type": "module",
+  "exports": {
+    "./main": "./src/main.ts",
+    "./preview": "./src/preview.ts",
+    "./style.css": "./src/styles/index.css"
+  },
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "prettier": "@fusionary/prettier-config",
+  "dependencies": {
+    "@storybook/addon-a11y": "^8.5.8",
+    "@storybook/addon-actions": "^8.5.8",
+    "@storybook/addon-essentials": "^8.5.8",
+    "@storybook/addon-interactions": "^8.5.8",
+    "@storybook/addon-links": "^8.5.8",
+    "@storybook/addon-onboarding": "^8.5.8",
+    "@storybook/addon-viewport": "^8.5.8",
+    "@storybook/blocks": "^8.5.8",
+    "@storybook/experimental-nextjs-vite": "^8.5.8",
+    "@storybook/react": "^8.5.8",
+    "@storybook/test": "^8.5.8",
+    "@storybook/types": "^8.5.8",
+    "postcss-loader": "^8.1.1",
+    "storybook": "^8.5.8"
+  },
+  "devDependencies": {
+    "@fusionary/eslint-config": "workspace:*",
+    "@fusionary/prettier-config": "workspace:*",
+    "@fusionary/tsconfig": "workspace:*",
+    "@types/node": "^20.17.19",
+    "@types/react": "^19.0.10",
+    "eslint": "^9.20.1",
+    "prettier": "^3.5.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.3"
+  }
+}

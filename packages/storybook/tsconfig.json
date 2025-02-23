@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@local/storybook-config/main": ["src/main.ts"],
+      "@local/storybook-config/preview": ["src/preview.ts"],
+      "@local/storybook-config/style.css": ["src/styles/index.css"]
+    },
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
+  },
+  "exclude": ["node_modules"],
+  "extends": "@fusionary/tsconfig/base.json",
+  "include": [".", ".storybook/**/*.ts"]
+}

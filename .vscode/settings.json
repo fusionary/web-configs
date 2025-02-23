@@ -1,0 +1,28 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": ["autoapply", "Fusionary", "turborepo"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.formatDocument": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
+  "eslint.workingDirectories": [{ "pattern": "packages/*/" }],
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.cache": true,
+    "**/.git": true,
+    "**/.husky": true,
+    "**/.turbo": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.autoImportFileExcludePatterns": [],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

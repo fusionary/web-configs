@@ -1,0 +1,45 @@
+{
+  "name": "@fusionary/web-configs",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "clean": "git clean -xdf node_modules",
+    "clean:workspaces": "turbo clean",
+    "dev": "turbo dev",
+    "doover": "turbo clean && rm -rf **/node_modules && pnpm i",
+    "format": "turbo format --continue -- --cache --cache-location node_modules/.cache/.prettiercache",
+    "format:fix": "turbo format --continue -- --write --cache --cache-location node_modules/.cache/.prettiercache",
+    "preinstall": "npx only-allow pnpm",
+    "lint": "turbo lint --continue -- --cache --cache-location node_modules/.cache/.eslintcache",
+    "lint:fix": "turbo lint --continue -- --fix --cache --cache-location node_modules/.cache/.eslintcache",
+    "lint:force": "turbo lint --continue --force -- --cache --cache-location node_modules/.cache/.eslintcache",
+    "lint:force:fix": "turbo lint --continue --force -- --fix --cache --cache-location node_modules/.cache/.eslintcache",
+    "lint:ws": "pnpm dlx sherif@latest",
+    "packages:check": "npm-check-updates",
+    "packages:sync": "syncpack",
+    "packages:update": "npm-check-updates -u && pnpm i",
+    "prepare": "husky",
+    "typecheck": "turbo typecheck --continue"
+  },
+  "prettier": "@fusionary/prettier-config",
+  "devDependencies": {
+    "@fusionary/eslint-config": "workspace:*",
+    "@fusionary/prettier-config": "workspace:*",
+    "@fusionary/tsconfig": "workspace:*",
+    "depcheck": "^1.4.7",
+    "glob": "^11.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "npm-check-updates": "^17.1.14",
+    "prettier": "^3.5.1",
+    "syncpack": "^12.4.0",
+    "turbo": "^2.4.2",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
+  "engines": {
+    "node": ">=20.11.1"
+  }
+}

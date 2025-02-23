@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@fusionary/eslint-config": ["eslint.config.mjs"],
+      "@fusionary/eslint-config/next": ["next.mjs"],
+      "@fusionary/eslint-config/react": ["react.mjs"]
+    },
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
+  },
+  "exclude": ["node_modules"],
+  "extends": "@fusionary/tsconfig/base.json",
+  "include": ["."]
+}
