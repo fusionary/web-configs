@@ -2,9 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@local/storybook-config/main": ["src/main.ts"],
-      "@local/storybook-config/preview": ["src/preview.ts"],
-      "@local/storybook-config/style.css": ["src/styles/index.css"]
+      "@fusionary/storybook-config/main": ["src/main.ts"],
+      "@fusionary/storybook-config/preview": ["src/preview.ts"],
+      "@fusionary/storybook-config/style.css": ["src/styles/index.css"]
     },
     "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
   },

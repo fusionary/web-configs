@@ -1,5 +1,5 @@
 {
-  "name": "@local/storybook-config",
+  "name": "@fusionary/storybook-config",
   "version": "5.0.0",
   "private": false,
   "description": "Baseline prettier config used and maintained by Fusionary.",
