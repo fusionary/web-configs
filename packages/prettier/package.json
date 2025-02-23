@@ -16,7 +16,7 @@
   },
   "scripts": {
     "clean": "rm -rf .turbo node_modules",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "format": "prettier --check . --ignore-path ../../.gitignore --ignore-path ./.prettierignore",
     "typecheck": "tsc --noEmit"
   },
   "prettier": "@fusionary/prettier-config",
