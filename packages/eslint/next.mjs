@@ -1,13 +1,18 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-
-// @ts-expect-error - no types
-import next from '@next/eslint-plugin-next'
+import { FlatCompat } from '@eslint/eslintrc'
 
 import react from '@fusionary/eslint-config/react'
+
+const compat = new FlatCompat({
+  baseDirectory: import.meta.dirname,
+})
+
+const next = compat.config({
+  extends: ['next'],
+})
 
 /** @typedef {import('eslint').Linter.Config} Config */
 
 /** @type {Config[]} */
-const _default = [...react, next.configs.recommended]
+const _default = [...react, ...next]
 
 export default _default
