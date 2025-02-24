@@ -29,6 +29,7 @@ const baseRules = {
   'import/prefer-default-export': ['off'],
 
   'no-console': ['warn'],
+  'no-unused-vars': ['off'],
 
   'perfectionist/sort-enums': ['off'],
   'perfectionist/sort-imports': ['off'],
