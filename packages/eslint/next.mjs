@@ -7,7 +7,7 @@ const compat = new FlatCompat({
 })
 
 const next = compat.config({
-  extends: ['next'],
+  extends: ['plugin:@next/next/recommended'],
 })
 
 /** @typedef {import('eslint').Linter.Config} Config */
