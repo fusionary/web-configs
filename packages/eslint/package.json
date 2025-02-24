@@ -12,9 +12,27 @@
   "author": "Fusionary <developers@fusionary.com> (https://fusionary.com)",
   "type": "module",
   "exports": {
-    ".": "./eslint.config.mjs",
-    "./next": "./next.mjs",
-    "./react": "./react.mjs"
+    ".": {
+      "default": "./eslint.config.mjs",
+      "import": "./eslint.config.mjs",
+      "node": "./eslint.config.mjs",
+      "require": "./eslint.config.mjs",
+      "types": "./eslint.config.mjs"
+    },
+    "./next": {
+      "default": "./next.mjs",
+      "import": "./next.mjs",
+      "node": "./next.mjs",
+      "require": "./next.mjs",
+      "types": "./next.mjs"
+    },
+    "./react": {
+      "default": "./react.mjs",
+      "import": "./react.mjs",
+      "node": "./react.mjs",
+      "require": "./react.mjs",
+      "types": "./react.mjs"
+    }
   },
   "main": "./eslint.config.mjs",
   "scripts": {
