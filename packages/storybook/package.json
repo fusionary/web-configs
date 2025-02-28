@@ -27,20 +27,21 @@
   },
   "prettier": "@fusionary/prettier-config",
   "dependencies": {
-    "@storybook/addon-a11y": "^8.5.8",
-    "@storybook/addon-actions": "^8.5.8",
-    "@storybook/addon-essentials": "^8.5.8",
-    "@storybook/addon-interactions": "^8.5.8",
-    "@storybook/addon-links": "^8.5.8",
-    "@storybook/addon-onboarding": "^8.5.8",
-    "@storybook/addon-viewport": "^8.5.8",
-    "@storybook/blocks": "^8.5.8",
-    "@storybook/experimental-nextjs-vite": "^8.5.8",
-    "@storybook/react": "^8.5.8",
-    "@storybook/test": "^8.5.8",
-    "@storybook/types": "^8.5.8",
+    "@storybook/addon-a11y": "^8.6.2",
+    "@storybook/addon-actions": "^8.6.2",
+    "@storybook/addon-designs": "^8.2.0",
+    "@storybook/addon-essentials": "^8.6.2",
+    "@storybook/addon-interactions": "^8.6.2",
+    "@storybook/addon-links": "^8.6.2",
+    "@storybook/addon-onboarding": "^8.6.2",
+    "@storybook/addon-viewport": "^8.6.2",
+    "@storybook/blocks": "^8.6.2",
+    "@storybook/experimental-nextjs-vite": "^8.6.2",
+    "@storybook/react": "^8.6.2",
+    "@storybook/test": "^8.6.2",
+    "@storybook/types": "^8.6.2",
     "postcss-loader": "^8.1.1",
-    "storybook": "^8.5.8"
+    "storybook": "^8.6.2"
   },
   "devDependencies": {
     "@fusionary/eslint-config": "workspace:*",
@@ -48,10 +49,10 @@
     "@fusionary/tsconfig": "workspace:*",
     "@types/node": "^20.17.19",
     "@types/react": "^19.0.10",
-    "eslint": "^9.20.1",
-    "prettier": "^3.5.1",
+    "eslint": "^9.21.0",
+    "prettier": "^3.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   }
 }
