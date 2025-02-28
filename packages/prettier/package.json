@@ -22,13 +22,13 @@
   "prettier": "@fusionary/prettier-config",
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
-    "prettier": "^3.5.1",
-    "prettier-plugin-packagejson": "^2.5.8",
+    "prettier": "^3.5.2",
+    "prettier-plugin-packagejson": "^2.5.9",
     "prettier-plugin-sort-json": "^4.1.1"
   },
   "devDependencies": {
     "@fusionary/tsconfig": "workspace:*",
     "@types/node": "^20.17.19",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   }
 }
