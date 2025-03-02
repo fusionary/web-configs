@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/eslint-config",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "private": false,
   "description": "Baseline eslint configs used and maintained by Fusionary.",
   "repository": {
@@ -71,7 +71,7 @@
     "@fusionary/tsconfig": "workspace:*",
     "@types/eslint": "^9.6.1",
     "@types/eslint__js": "^8.42.3",
-    "@types/node": "^20.17.19",
+    "@types/node": "^20.17.22",
     "eslint": "^9.21.0",
     "globals": "^15.15.0",
     "prettier": "^3.5.2",

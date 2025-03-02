@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/prettier-config",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "private": false,
   "description": "Baseline prettier config used and maintained by Fusionary.",
   "repository": {
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@fusionary/tsconfig": "workspace:*",
-    "@types/node": "^20.17.19",
+    "@types/node": "^20.17.22",
     "typescript": "^5.8.2"
   }
 }
