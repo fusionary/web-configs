@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/storybook-config",
-  "version": "5.1.1",
+  "version": "5.1.2",
   "private": false,
   "description": "Baseline storybook config used and maintained by Fusionary.",
   "repository": {
@@ -13,16 +13,22 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "type": "module",
   "exports": {
     "./main": "./src/main.ts",
     "./preview": "./src/preview.ts",
     "./style.css": "./src/styles/index.css"
   },
+  "files": [
+    "dist",
+    "src/styles/index.css"
+  ],
   "scripts": {
-    "clean": "rm -rf .turbo node_modules",
+    "build": "parcel build",
+    "clean": "rm -rf .turbo node_modules dist",
+    "dev": "parcel watch",
     "format": "prettier --check . --ignore-path ../../.gitignore --ignore-path ./.prettierignore",
     "lint": "eslint .",
+    "prepack": "pnpm build",
     "typecheck": "tsc --noEmit"
   },
   "prettier": "@fusionary/prettier-config",
@@ -47,12 +53,65 @@
     "@fusionary/eslint-config": "workspace:*",
     "@fusionary/prettier-config": "workspace:*",
     "@fusionary/tsconfig": "workspace:*",
+    "@parcel/config-default": "^2.13.3",
+    "@parcel/transformer-typescript-types": "^2.13.3",
     "@types/node": "^20.17.22",
     "@types/react": "^19.0.10",
     "eslint": "^9.21.0",
+    "parcel": "^2.13.3",
     "prettier": "^3.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "typescript": "^5.8.2"
+  },
+  "publishConfig": {
+    "exports": {
+      "./main": {
+        "import": "./dist/main/main.js",
+        "require": "./dist/main/main.js",
+        "types": "./src/main/main.ts"
+      },
+      "./preview": {
+        "import": "./src/preview/preview.js",
+        "require": "./src/preview/preview.js",
+        "types": "./src/preview/preview.ts"
+      },
+      "./style.css": "./src/styles/index.css"
+    }
+  },
+  "targets": {
+    "main": {
+      "distDir": "./dist/main",
+      "source": "./src/main.ts",
+      "sourceMap": true,
+      "isLibrary": true,
+      "engines": {
+        "node": ">=20"
+      }
+    },
+    "main-types": {
+      "distDir": "./dist/main",
+      "source": "./src/main.ts",
+      "sourceMap": false,
+      "isLibrary": true
+    },
+    "preview": {
+      "distDir": "./dist/preview",
+      "source": "./src/preview.ts",
+      "sourceMap": true,
+      "isLibrary": true,
+      "includeNodeModules": {
+        "storybook": false
+      },
+      "engines": {
+        "node": ">=20"
+      }
+    },
+    "preview-types": {
+      "distDir": "./dist/preview",
+      "source": "./src/preview.ts",
+      "sourceMap": false,
+      "isLibrary": true
+    }
   }
 }

@@ -17,8 +17,10 @@
     "**/.cache": true,
     "**/.git": true,
     "**/.husky": true,
+    "**/.parcel-cache": true,
     "**/.turbo": true,
     "**/Thumbs.db": true,
+    "**/dist": true,
     "**/node_modules": true
   },
   "files.insertFinalNewline": true,

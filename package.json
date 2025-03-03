@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/web-configs",
-  "version": "5.1.1",
+  "version": "5.1.2",
   "private": true,
   "type": "module",
   "scripts": {
@@ -28,6 +28,7 @@
     "@fusionary/eslint-config": "workspace:*",
     "@fusionary/prettier-config": "workspace:*",
     "@fusionary/tsconfig": "workspace:*",
+    "@parcel/packager-ts": "2.13.3",
     "depcheck": "^1.4.7",
     "glob": "^11.0.1",
     "husky": "^9.1.7",
