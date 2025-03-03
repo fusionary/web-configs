@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/storybook-config",
-  "version": "5.1.2",
+  "version": "5.1.3",
   "private": false,
   "description": "Baseline storybook config used and maintained by Fusionary.",
   "repository": {
@@ -72,9 +72,9 @@
         "types": "./src/main/main.ts"
       },
       "./preview": {
-        "import": "./src/preview/preview.js",
-        "require": "./src/preview/preview.js",
-        "types": "./src/preview/preview.ts"
+        "import": "./dist/preview/preview.js",
+        "require": "./dist/preview/preview.js",
+        "types": "./dist/preview/preview.ts"
       },
       "./style.css": "./src/styles/index.css"
     }
