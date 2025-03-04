@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/prettier-config",
-  "version": "5.1.4",
+  "version": "5.1.5-pre.1",
   "private": false,
   "description": "Baseline prettier config used and maintained by Fusionary.",
   "repository": {
