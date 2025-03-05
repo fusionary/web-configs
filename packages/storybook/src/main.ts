@@ -2,13 +2,15 @@ import type { StorybookConfig } from '@storybook/experimental-nextjs-vite'
 
 export const config: StorybookConfig = {
   addons: [
-    import.meta.resolve('@storybook/addon-a11y'),
-    import.meta.resolve('@storybook/addon-links'),
-    import.meta.resolve('@storybook/addon-designs'),
-    import.meta.resolve('@storybook/addon-essentials'),
-    import.meta.resolve('@storybook/addon-onboarding'),
-    import.meta.resolve('@storybook/addon-interactions'),
-    import.meta.resolve('@storybook/addon-viewport'),
+    /* eslint-disable unicorn/prefer-module */
+    require.resolve('@storybook/addon-a11y'),
+    require.resolve('@storybook/addon-links'),
+    require.resolve('@storybook/addon-designs'),
+    require.resolve('@storybook/addon-essentials'),
+    require.resolve('@storybook/addon-onboarding'),
+    require.resolve('@storybook/addon-interactions'),
+    require.resolve('@storybook/addon-viewport'),
+    /* eslint-enable unicorn/prefer-module */
   ],
   docs: {},
   framework: {

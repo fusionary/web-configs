@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/tsconfig",
-  "version": "5.1.5-pre.2",
+  "version": "5.1.5-pre.3",
   "private": false,
   "description": "Baseline tsconfigs config used and maintained by Fusionary.",
   "repository": {
