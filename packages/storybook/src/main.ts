@@ -2,13 +2,13 @@ import type { StorybookConfig } from '@storybook/experimental-nextjs-vite'
 
 export const config: StorybookConfig = {
   addons: [
-    '@storybook/addon-a11y',
-    '@storybook/addon-links',
-    '@storybook/addon-designs',
-    '@storybook/addon-essentials',
-    '@storybook/addon-onboarding',
-    '@storybook/addon-interactions',
-    '@storybook/addon-viewport',
+    import.meta.resolve('@storybook/addon-a11y'),
+    import.meta.resolve('@storybook/addon-links'),
+    import.meta.resolve('@storybook/addon-designs'),
+    import.meta.resolve('@storybook/addon-essentials'),
+    import.meta.resolve('@storybook/addon-onboarding'),
+    import.meta.resolve('@storybook/addon-interactions'),
+    import.meta.resolve('@storybook/addon-viewport'),
   ],
   docs: {},
   framework: {
