@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/storybook-config",
-  "version": "5.1.5-pre.3",
+  "version": "5.1.5-pre.4",
   "private": false,
   "description": "Baseline storybook config used and maintained by Fusionary.",
   "repository": {
@@ -63,23 +63,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "typescript": "^5.8.2"
-  },
-  "peerDependencies": {
-    "@storybook/addon-a11y": "^8.6.3",
-    "@storybook/addon-actions": "^8.6.3",
-    "@storybook/addon-designs": "^8.2.0",
-    "@storybook/addon-essentials": "^8.6.3",
-    "@storybook/addon-interactions": "^8.6.3",
-    "@storybook/addon-links": "^8.6.3",
-    "@storybook/addon-onboarding": "^8.6.3",
-    "@storybook/addon-viewport": "^8.6.3",
-    "@storybook/blocks": "^8.6.3",
-    "@storybook/experimental-nextjs-vite": "^8.6.3",
-    "@storybook/react": "^8.6.3",
-    "@storybook/test": "^8.6.3",
-    "@storybook/types": "^8.6.3",
-    "postcss-loader": "^8.1.1",
-    "storybook": "^8.6.3"
   },
   "publishConfig": {
     "exports": {

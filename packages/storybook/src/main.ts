@@ -1,16 +1,18 @@
+import { createRequire } from 'node:module'
 import type { StorybookConfig } from '@storybook/experimental-nextjs-vite'
+
+// eslint-disable-next-line unicorn/prefer-module
+const req = createRequire(__dirname)
 
 export const config: StorybookConfig = {
   addons: [
-    /* eslint-disable unicorn/prefer-module */
-    require.resolve('@storybook/addon-a11y'),
-    require.resolve('@storybook/addon-links'),
-    require.resolve('@storybook/addon-designs'),
-    require.resolve('@storybook/addon-essentials'),
-    require.resolve('@storybook/addon-onboarding'),
-    require.resolve('@storybook/addon-interactions'),
-    require.resolve('@storybook/addon-viewport'),
-    /* eslint-enable unicorn/prefer-module */
+    req.resolve('@storybook/addon-a11y'),
+    req.resolve('@storybook/addon-links'),
+    req.resolve('@storybook/addon-designs'),
+    req.resolve('@storybook/addon-essentials'),
+    req.resolve('@storybook/addon-onboarding'),
+    req.resolve('@storybook/addon-interactions'),
+    req.resolve('@storybook/addon-viewport'),
   ],
   docs: {},
   framework: {
