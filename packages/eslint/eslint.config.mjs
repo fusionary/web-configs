@@ -11,8 +11,6 @@ import perfectionist from 'eslint-plugin-perfectionist'
 import { configs as regexpPluginConfigs } from 'eslint-plugin-regexp'
 // @ts-expect-error - no types
 import storybook from 'eslint-plugin-storybook'
-// @ts-expect-error - no types
-import tailwindcss from 'eslint-plugin-tailwindcss'
 import turbo from 'eslint-plugin-turbo'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import unusedImports from 'eslint-plugin-unused-imports'
@@ -51,11 +49,6 @@ const baseRules = {
   'unicorn/prevent-abbreviations': ['off'],
 
   'unused-imports/no-unused-imports': ['error'],
-}
-
-const tailwindRules = {
-  'tailwindcss/classnames-order': ['off'],
-  'tailwindcss/no-custom-classname': ['off'],
 }
 
 const typescriptRules = {
@@ -100,7 +93,6 @@ export const rootEslintConfig = [
   eslintPluginUnicorn.configs['flat/recommended'],
   importPlugin.flatConfigs.recommended,
   ...storybook.configs['flat/recommended'],
-  ...tailwindcss.configs['flat/recommended'],
   {
     languageOptions: {
       ecmaVersion: 'latest',
@@ -126,7 +118,6 @@ export const rootEslintConfig = [
     },
     rules: {
       ...baseRules,
-      ...tailwindRules,
     },
     settings: {
       'import/extensions': [
