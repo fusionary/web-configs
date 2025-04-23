@@ -32,6 +32,21 @@ const baseRules = {
   'perfectionist/sort-enums': ['off'],
   'perfectionist/sort-imports': ['off'],
   'perfectionist/sort-named-imports': ['off'],
+  'perfectionist/sort-object-types': [
+    'error',
+    {
+      partitionByComment: true,
+      partitionByNewLine: false,
+    },
+  ],
+
+  'perfectionist/sort-objects': [
+    'error',
+    {
+      partitionByComment: true,
+      partitionByNewLine: false,
+    },
+  ],
 
   'unicorn/better-regex': ['warn'],
   'unicorn/consistent-function-scoping': ['off'],
