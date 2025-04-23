@@ -1,6 +1,6 @@
 {
   "name": "@fusionary/eslint-config",
-  "version": "5.2.0",
+  "version": "5.3.0",
   "private": false,
   "description": "Baseline eslint configs used and maintained by Fusionary.",
   "repository": {
