@@ -1,0 +1,6 @@
+{
+  "packages/eslint": "5.2.0",
+  "packages/prettier": "5.2.0",
+  "packages/tsconfig": "5.2.0",
+  "packages/web-configs": "5.2.0"
+}
