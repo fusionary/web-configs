@@ -35,6 +35,7 @@
   "dependencies": {
     "@storybook/addon-a11y": "^9.0.4",
     "@storybook/addon-designs": "^10.0.1",
+    "@storybook/addon-docs": "^9.0.4",
     "@storybook/addon-links": "^9.0.4",
     "@storybook/nextjs-vite": "^9.0.4",
     "@storybook/react": "^9.0.4",

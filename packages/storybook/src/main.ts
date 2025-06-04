@@ -3,8 +3,9 @@ import type { StorybookConfig } from '@storybook/nextjs-vite'
 export const config: StorybookConfig = {
   addons: [
     '@storybook/addon-a11y',
-    '@storybook/addon-links',
     '@storybook/addon-designs',
+    '@storybook/addon-docs',
+    '@storybook/addon-links',
   ],
   docs: {},
   framework: {
