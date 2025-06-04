@@ -133,7 +133,7 @@ importers:
         specifier: ^8.42.3
         version: 8.42.3
       '@types/node':
-        specifier: ^20.17.23
+        specifier: ^20.17.57
         version: 20.17.57
       eslint:
         specifier: ^9.21.0
@@ -164,7 +164,7 @@ importers:
         specifier: workspace:*
         version: link:../tsconfig
       '@types/node':
-        specifier: ^20.17.23
+        specifier: ^20.17.57
         version: 20.17.57
       typescript:
         specifier: ^5.8.2
