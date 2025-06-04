@@ -1,4 +1,4 @@
-import type { StorybookConfig } from '@storybook/experimental-nextjs-vite'
+import type { StorybookConfig } from '@storybook/nextjs-vite'
 
 export const config: StorybookConfig = {
   addons: [
@@ -12,7 +12,7 @@ export const config: StorybookConfig = {
   ],
   docs: {},
   framework: {
-    name: '@storybook/experimental-nextjs-vite',
+    name: '@storybook/nextjs-vite',
     options: {
       builder: {},
     },
@@ -29,4 +29,4 @@ export const config: StorybookConfig = {
 export default config
 
 // eslint-disable-next-line import/named
-export { type StorybookConfig } from '@storybook/experimental-nextjs-vite'
+export { type StorybookConfig } from '@storybook/nextjs-vite'
