@@ -34,7 +34,6 @@
   "prettier": "@fusionary/prettier-config",
   "dependencies": {
     "@storybook/addon-a11y": "^9.0.4",
-    "@storybook/addon-actions": "^9.0.4",
     "@storybook/addon-designs": "^10.0.1",
     "@storybook/addon-links": "^9.0.4",
     "@storybook/nextjs-vite": "^9.0.4",
