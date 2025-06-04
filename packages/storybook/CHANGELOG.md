@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0.2](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.1...storybook-config@v6.0.2) (2025-06-04)
+
+
+### Bug Fixes
+
+* **storybook:** more tweaks to installed addons ([6ebfbee](https://github.com/fusionary/web-configs/commit/6ebfbeec7a3cd39cf2f329ddc5043d5cb4dc45c0))
+
 ## [6.0.1](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.0...storybook-config@v6.0.1) (2025-06-04)
 
 
