@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0.4](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.3...storybook-config@v6.0.4) (2025-06-04)
+
+
+### Bug Fixes
+
+* **storybook:** add missing docs dep ([3b66b37](https://github.com/fusionary/web-configs/commit/3b66b374eba58558e4dbc8e2714c812f693b243b))
+
 ## [6.0.3](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.2...storybook-config@v6.0.3) (2025-06-04)
 
 
