@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0.5](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.4...storybook-config@v6.0.5) (2025-06-09)
+
+
+### Bug Fixes
+
+* **storybook:** move dependency ([f6c477a](https://github.com/fusionary/web-configs/commit/f6c477a265b8fdd553eb260a474e0058ab91b641))
+
 ## [6.0.4](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.3...storybook-config@v6.0.4) (2025-06-04)
 
 
