@@ -61,6 +61,7 @@ const baseRules = {
   ],
   'unicorn/no-array-reduce': ['off'],
   'unicorn/no-null': ['off'],
+  'unicorn/no-useless-undefined': ['off'],
   'unicorn/prevent-abbreviations': ['off'],
 
   'unused-imports/no-unused-imports': ['error'],
