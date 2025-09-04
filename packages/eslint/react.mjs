@@ -4,6 +4,7 @@
 // @ts-expect-error - no types
 import jsxA11y from 'eslint-plugin-jsx-a11y'
 import reactPlugin from 'eslint-plugin-react'
+import reactCompiler from 'eslint-plugin-react-compiler'
 // @ts-expect-error - no types
 import reactHooks from 'eslint-plugin-react-hooks'
 
@@ -36,8 +37,12 @@ const reactRules = {
 /** @type {Config[]} */
 const _default = [
   ...base,
-  reactPlugin.configs.flat.recommended ?? {},
+  {
+    ...reactPlugin.configs.flat.recommended,
+    settings: { react: { version: 'detect' } },
+  },
   reactPlugin.configs.flat['jsx-runtime'] ?? {},
+  reactCompiler.configs.recommended,
   jsxA11y.flatConfigs.recommended,
   {
     name: 'React Hooks',
