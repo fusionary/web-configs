@@ -6,6 +6,7 @@ export const config: StorybookConfig = {
     '@storybook/addon-designs',
     '@storybook/addon-docs',
     '@storybook/addon-links',
+    'storybook-addon-tag-badges',
   ],
   docs: {},
   framework: {
