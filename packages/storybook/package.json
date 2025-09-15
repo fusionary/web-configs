@@ -61,7 +61,7 @@
   "publishConfig": {
     "exports": {
       "./main": {
-        "types": "./src/main/main.d.ts",
+        "types": "./dest/main/main.d.ts",
         "import": "./dist/main/main.js",
         "require": "./dist/main/main.js"
       },
@@ -82,7 +82,7 @@
       "sourceMap": true,
       "isLibrary": true,
       "engines": {
-        "node": ">=20"
+        "node": ">=22"
       }
     },
     "main-types": {
@@ -100,7 +100,7 @@
         "storybook": false
       },
       "engines": {
-        "node": ">=20"
+        "node": ">=22"
       }
     },
     "preview-types": {
