@@ -5,7 +5,6 @@ import js from '@eslint/js'
 import typescriptParser from '@typescript-eslint/parser'
 // @ts-expect-error - no types
 import eslintConfigPrettier from 'eslint-config-prettier'
-// @ts-expect-error - no types
 import importPlugin from 'eslint-plugin-import'
 import perfectionist from 'eslint-plugin-perfectionist'
 import { configs as regexpPluginConfigs } from 'eslint-plugin-regexp'
