@@ -1,5 +1,13 @@
 # Changelog
 
+## [6.1.1](https://github.com/fusionary/web-configs/compare/storybook-config@v6.1.0...storybook-config@v6.1.1) (2025-09-15)
+
+
+### Bug Fixes
+
+* resolve storybook package.json issues ([32d9d52](https://github.com/fusionary/web-configs/commit/32d9d522139e3fc642a3e2fb3eca4b7aba007b67))
+* spelling ([c65cf51](https://github.com/fusionary/web-configs/commit/c65cf517624330e819e38b1e08a9c63b5c267add))
+
 ## [6.1.0](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.5...storybook-config@v6.1.0) (2025-09-15)
 
 
