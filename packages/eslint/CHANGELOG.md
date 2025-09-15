@@ -1,5 +1,21 @@
 # Changelog
 
+## [6.0.0](https://github.com/fusionary/web-configs/compare/eslint-config@v5.5.0...eslint-config@v6.0.0) (2025-09-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* update lots of dependencies
+
+### Features
+
+* update lots of dependencies ([ff9f650](https://github.com/fusionary/web-configs/commit/ff9f6500718d2a83baccbe3ebd74b87254d1f7ea))
+
+
+### Bug Fixes
+
+* set types as first export ([bd78b60](https://github.com/fusionary/web-configs/commit/bd78b60ba2363c76d695c13ee4046d1897792908))
+
 ## [5.5.0](https://github.com/fusionary/web-configs/compare/eslint-config@v5.4.0...eslint-config@v5.5.0) (2025-09-04)
 
 

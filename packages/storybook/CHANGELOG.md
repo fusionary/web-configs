@@ -1,5 +1,17 @@
 # Changelog
 
+## [6.1.0](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.5...storybook-config@v6.1.0) (2025-09-15)
+
+
+### Features
+
+* add storybook plugin ([7b0572b](https://github.com/fusionary/web-configs/commit/7b0572b6e1bab1375d1f86292a95644877c01b5b))
+
+
+### Bug Fixes
+
+* set types as first export ([bd78b60](https://github.com/fusionary/web-configs/commit/bd78b60ba2363c76d695c13ee4046d1897792908))
+
 ## [6.0.5](https://github.com/fusionary/web-configs/compare/storybook-config@v6.0.4...storybook-config@v6.0.5) (2025-06-09)
 
 
