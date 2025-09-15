@@ -48,7 +48,7 @@
     "@fusionary/tsconfig": "workspace:*",
     "@parcel/config-default": "^2.15.4",
     "@parcel/transformer-typescript-types": "^2.15.4",
-    "@types/node": "^20.19.15",
+    "@types/node": "^22.18.4",
     "@types/react": "^19.1.13",
     "eslint": "^9.35.0",
     "parcel": "^2.15.4",

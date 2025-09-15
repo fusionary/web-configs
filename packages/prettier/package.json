@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@fusionary/tsconfig": "workspace:*",
-    "@types/node": "^20.19.15",
+    "@types/node": "^22.18.4",
     "typescript": "^5.9.2"
   }
 }
