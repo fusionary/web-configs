@@ -61,14 +61,14 @@
   "publishConfig": {
     "exports": {
       "./main": {
+        "types": "./src/main/main.d.ts",
         "import": "./dist/main/main.js",
-        "require": "./dist/main/main.js",
-        "types": "./src/main/main.d.ts"
+        "require": "./dist/main/main.js"
       },
       "./preview": {
+        "types": "./dist/preview/preview.d.ts",
         "import": "./dist/preview/preview.js",
-        "require": "./dist/preview/preview.js",
-        "types": "./dist/preview/preview.d.ts"
+        "require": "./dist/preview/preview.js"
       },
       "./style.css": "./src/styles/index.css"
     }

@@ -13,25 +13,25 @@
   "type": "module",
   "exports": {
     ".": {
+      "types": "./eslint.config.mjs",
       "default": "./eslint.config.mjs",
       "import": "./eslint.config.mjs",
       "node": "./eslint.config.mjs",
-      "require": "./eslint.config.mjs",
-      "types": "./eslint.config.mjs"
+      "require": "./eslint.config.mjs"
     },
     "./next": {
+      "types": "./next.mjs",
       "default": "./next.mjs",
       "import": "./next.mjs",
       "node": "./next.mjs",
-      "require": "./next.mjs",
-      "types": "./next.mjs"
+      "require": "./next.mjs"
     },
     "./react": {
+      "types": "./react.mjs",
       "default": "./react.mjs",
       "import": "./react.mjs",
       "node": "./react.mjs",
-      "require": "./react.mjs",
-      "types": "./react.mjs"
+      "require": "./react.mjs"
     }
   },
   "main": "./eslint.config.mjs",
