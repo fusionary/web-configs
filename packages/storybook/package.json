@@ -61,7 +61,7 @@
   "publishConfig": {
     "exports": {
       "./main": {
-        "types": "./dest/main/main.d.ts",
+        "types": "./dist/main/main.d.ts",
         "import": "./dist/main/main.js",
         "require": "./dist/main/main.js"
       },
