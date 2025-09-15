@@ -5,35 +5,11 @@ import jsxA11y from 'eslint-plugin-jsx-a11y'
 import reactPlugin from 'eslint-plugin-react'
 import reactCompiler from 'eslint-plugin-react-compiler'
 import reactHooks from 'eslint-plugin-react-hooks'
+import { defineConfig } from 'eslint/config'
 
 import base from '@fusionary/eslint-config'
 
-const reactRules = {
-  'jsx-a11y/label-has-associated-control': [
-    'error',
-    {
-      depth: 3,
-      labelAttributes: ['children'],
-      labelComponents: ['FormLabel'],
-    },
-  ],
-
-  'react/function-component-definition': [
-    'error',
-    {
-      namedComponents: 'arrow-function',
-      unnamedComponents: 'arrow-function',
-    },
-  ],
-  'react/no-array-index-key': ['warn'],
-  'react/prop-types': 'off',
-  'react/react-in-jsx-scope': ['off'],
-}
-
-/** @typedef {import('eslint').Linter.Config} Config */
-
-/** @type {Config[]} */
-const _default = [
+const $config = defineConfig(
   ...base,
   {
     ...reactPlugin.configs.flat.recommended,
@@ -41,6 +17,7 @@ const _default = [
   },
   reactPlugin.configs.flat['jsx-runtime'] ?? {},
   reactCompiler.configs.recommended,
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
   jsxA11y.flatConfigs.recommended,
   {
     name: 'React Hooks',
@@ -57,7 +34,25 @@ const _default = [
     },
     name: 'React',
     rules: {
-      ...reactRules,
+      'jsx-a11y/label-has-associated-control': [
+        'error',
+        {
+          depth: 3,
+          labelAttributes: ['children'],
+          labelComponents: ['FormLabel'],
+        },
+      ],
+
+      'react/function-component-definition': [
+        'error',
+        {
+          namedComponents: 'arrow-function',
+          unnamedComponents: 'arrow-function',
+        },
+      ],
+      'react/no-array-index-key': ['warn'],
+      'react/prop-types': 'off',
+      'react/react-in-jsx-scope': ['off'],
     },
     settings: {
       react: {
@@ -65,6 +60,6 @@ const _default = [
       },
     },
   },
-]
+)
 
-export default _default
+export default $config
