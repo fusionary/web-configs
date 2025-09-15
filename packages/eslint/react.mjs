@@ -1,11 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
 // @ts-expect-error - no types
 import jsxA11y from 'eslint-plugin-jsx-a11y'
 import reactPlugin from 'eslint-plugin-react'
 import reactCompiler from 'eslint-plugin-react-compiler'
-// @ts-expect-error - no types
 import reactHooks from 'eslint-plugin-react-hooks'
 
 import base from '@fusionary/eslint-config'
