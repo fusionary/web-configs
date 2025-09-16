@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0.1](https://github.com/fusionary/web-configs/compare/eslint-config@v6.0.0...eslint-config@v6.0.1) (2025-09-15)
+
+
+### Bug Fixes
+
+* normalize rules ([fd0a087](https://github.com/fusionary/web-configs/commit/fd0a087c9c230250e2b366bbf6461c4a60c8ed18))
+
 ## [6.0.0](https://github.com/fusionary/web-configs/compare/eslint-config@v5.5.0...eslint-config@v6.0.0) (2025-09-15)
 
 
