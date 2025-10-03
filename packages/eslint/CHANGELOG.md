@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.1.0](https://github.com/fusionary/web-configs/compare/eslint-config@v6.0.1...eslint-config@v6.1.0) (2025-10-03)
+
+
+### Features
+
+* update react hooks eslint ([b98ab80](https://github.com/fusionary/web-configs/commit/b98ab80569066f3722e8d8cd0fc3f933dc50f898))
+
 ## [6.0.1](https://github.com/fusionary/web-configs/compare/eslint-config@v6.0.0...eslint-config@v6.0.1) (2025-09-15)
 
 
