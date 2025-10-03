@@ -20,12 +20,11 @@ const $config = defineConfig(
   // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
   jsxA11y.flatConfigs.recommended,
   {
+    extends: ['react-hooks/recommended'],
+    files: ['**/*.{js,jsx,ts,tsx}'],
     name: 'React Hooks',
     plugins: {
       'react-hooks': reactHooks,
-    },
-    rules: {
-      ...reactHooks.configs.recommended.rules,
     },
   },
   {
