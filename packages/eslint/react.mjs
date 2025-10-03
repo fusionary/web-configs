@@ -11,16 +11,12 @@ import base from '@fusionary/eslint-config'
 
 const $config = defineConfig(
   ...base,
-  {
-    ...reactPlugin.configs.flat.recommended,
-    settings: { react: { version: 'detect' } },
-  },
-  reactPlugin.configs.flat['jsx-runtime'] ?? {},
+  { ...reactPlugin.configs.flat.recommended },
   reactCompiler.configs.recommended,
   // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
   jsxA11y.flatConfigs.recommended,
   {
-    extends: ['react-hooks/recommended'],
+    extends: ['react-hooks/recommended-latest'],
     files: ['**/*.{js,jsx,ts,tsx}'],
     name: 'React Hooks',
     plugins: {
