@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.1.1](https://github.com/fusionary/web-configs/compare/eslint-config@v6.1.0...eslint-config@v6.1.1) (2025-10-03)
+
+
+### Bug Fixes
+
+* resolve issue with react config ([ab3d23b](https://github.com/fusionary/web-configs/commit/ab3d23b4ce95f5bc74685a35666ec55f28bc690a))
+
 ## [6.1.0](https://github.com/fusionary/web-configs/compare/eslint-config@v6.0.1...eslint-config@v6.1.0) (2025-10-03)
 
 

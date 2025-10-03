@@ -1,5 +1,5 @@
 {
-  "packages/eslint": "6.1.0",
+  "packages/eslint": "6.1.1",
   "packages/prettier": "5.2.0",
   "packages/storybook": "6.1.1",
   "packages/tsconfig": "5.2.0",
