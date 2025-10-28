@@ -26,6 +26,7 @@ export const rootEslintConfig = defineConfig(
   regexpPluginConfigs['flat/recommended'],
   eslintPluginUnicorn.configs.recommended,
   importPlugin.flatConfigs.recommended,
+  // @ts-expect-error --- false positive
   storybook.configs['flat/recommended'],
   {
     languageOptions: {
