@@ -1,5 +1,16 @@
 # Changelog
 
+## [7.0.0](https://github.com/fusionary/web-configs/compare/eslint-config@v6.1.1...eslint-config@v7.0.0) (2025-10-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **storybook:** storybook 10
+
+### Features
+
+* **storybook:** storybook 10 ([f85a67c](https://github.com/fusionary/web-configs/commit/f85a67c09f64f55dfb93f6ab5de4a3e836fe0fb2))
+
 ## [6.1.1](https://github.com/fusionary/web-configs/compare/eslint-config@v6.1.0...eslint-config@v6.1.1) (2025-10-03)
 
 
