@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.0.1](https://github.com/fusionary/web-configs/compare/storybook-config@v7.0.0...storybook-config@v7.0.1) (2025-10-29)
+
+
+### Bug Fixes
+
+* **storybook:** mark package as module ([f07b8b1](https://github.com/fusionary/web-configs/commit/f07b8b14be1009a8d64f40ba5f0030b7678fd150))
+
 ## [7.0.0](https://github.com/fusionary/web-configs/compare/storybook-config@v6.1.1...storybook-config@v7.0.0) (2025-10-28)
 
 
