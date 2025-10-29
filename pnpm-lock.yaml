@@ -26,6 +26,9 @@ importers:
       '@parcel/packager-ts':
         specifier: 2.15.4
         version: 2.15.4(@parcel/core@2.15.4)
+      '@parcel/transformer-typescript-types':
+        specifier: 2.15.4
+        version: 2.15.4(@parcel/core@2.15.4)(typescript@5.9.2)
       depcheck:
         specifier: ^1.4.7
         version: 1.4.7
