@@ -1,5 +1,13 @@
 # Changelog
 
+## [7.0.2](https://github.com/fusionary/web-configs/compare/storybook-config@v7.0.1...storybook-config@v7.0.2) (2025-10-29)
+
+
+### Bug Fixes
+
+* **storybook:** remove dep ([ce59668](https://github.com/fusionary/web-configs/commit/ce596683982e508cd35f5e2cf4bc6fd951e5ce32))
+* **storybook:** try different config approach ([0e989ad](https://github.com/fusionary/web-configs/commit/0e989ad32d2ef425d50fe8fac2389df9b3f7ec68))
+
 ## [7.0.1](https://github.com/fusionary/web-configs/compare/storybook-config@v7.0.0...storybook-config@v7.0.1) (2025-10-29)
 
 
