@@ -53,7 +53,6 @@
     "@fusionary/prettier-config": "workspace:*",
     "@fusionary/tsconfig": "workspace:*",
     "@parcel/config-default": "^2.15.4",
-    "@parcel/transformer-typescript-tsc": "^2.16.0",
     "@parcel/transformer-typescript-types": "^2.15.4",
     "@types/node": "^22.18.4",
     "@types/react": "^19.1.13",
