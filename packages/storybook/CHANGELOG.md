@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.0.3](https://github.com/fusionary/web-configs/compare/storybook-config@v7.0.2...storybook-config@v7.0.3) (2025-10-29)
+
+
+### Bug Fixes
+
+* **storybook:** restore accidentally deleted file ([8c2f272](https://github.com/fusionary/web-configs/commit/8c2f27205de63d75582ab85745c5dc34ff7ee3b0))
+
 ## [7.0.2](https://github.com/fusionary/web-configs/compare/storybook-config@v7.0.1...storybook-config@v7.0.2) (2025-10-29)
 
 
