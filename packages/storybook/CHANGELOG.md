@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.0.4](https://github.com/fusionary/web-configs/compare/storybook-config@v7.0.3...storybook-config@v7.0.4) (2025-10-29)
+
+
+### Bug Fixes
+
+* **storybook:** tweak build ([5ef5539](https://github.com/fusionary/web-configs/commit/5ef55399389bed1b81bf3a46e5cec5f0769936f7))
+
 ## [7.0.3](https://github.com/fusionary/web-configs/compare/storybook-config@v7.0.2...storybook-config@v7.0.3) (2025-10-29)
 
 
