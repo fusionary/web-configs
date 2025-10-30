@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.0](https://github.com/fusionary/web-configs/compare/eslint-config@v7.0.0...eslint-config@v7.1.0) (2025-10-30)
+
+
+### Features
+
+* **eslint:** react you might not need a hook ([2ff02b1](https://github.com/fusionary/web-configs/commit/2ff02b13c1b1294455c89a85db9c29d5fb39ace1))
+
 ## [7.0.0](https://github.com/fusionary/web-configs/compare/eslint-config@v6.1.1...eslint-config@v7.0.0) (2025-10-28)
 
 
