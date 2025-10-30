@@ -5,6 +5,7 @@ import jsxA11y from 'eslint-plugin-jsx-a11y'
 import reactPlugin from 'eslint-plugin-react'
 import reactCompiler from 'eslint-plugin-react-compiler'
 import reactHooks from 'eslint-plugin-react-hooks'
+import reactYouMightNotNeedAnEffect from 'eslint-plugin-react-you-might-not-need-an-effect'
 import { defineConfig } from 'eslint/config'
 
 import base from '@fusionary/eslint-config'
@@ -23,6 +24,7 @@ const $config = defineConfig(
       'react-hooks': reactHooks,
     },
   },
+  reactYouMightNotNeedAnEffect.configs.recommended,
   {
     languageOptions: {
       ...reactPlugin.configs.flat.recommended?.languageOptions,
